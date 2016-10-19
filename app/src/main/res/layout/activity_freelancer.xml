@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sbgames.lucassoares.com.sbgames.FreelancerActivity"
+    android:background="#626262">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Freelancer"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:textSize="100px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Profissional autônomo que consegue se adaptar bem em qualquer área do desenvolvimento de games, participando ativamente até a conclusão do projeto. Geralmente é contratado em momentos que se precisa de um substituto na equipe, logo após a conclusão do projeto ele deixa a equipe atual para procurar uma nova ou novo emprego temporário."
+        android:id="@+id/textView4"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textAlignment="gravity"
+        android:clickable="false"
+        android:editable="false"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
