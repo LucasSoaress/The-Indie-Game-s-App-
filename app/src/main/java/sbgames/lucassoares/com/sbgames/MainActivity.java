@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         botaoRegras = (ImageView) findViewById(R.id.RegrasId);
+        botaoSobre = (ImageView) findViewById(R.id.sobreJogoId);
         profissoes = (ImageView) findViewById(R.id.profissoesId);
 
 
