@@ -8,35 +8,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sbgames.lucassoares.com.sbgames.MainActivity"
-    android:background="#000000">
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:id="@+id/imageView"
-        android:background="@drawable/r"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="23dp" />
+    android:background="@color/colorAccent">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:id="@+id/profissoesId"
         android:background="@drawable/profissoes"
-        android:layout_below="@+id/sobreJogoId"
         android:layout_alignLeft="@+id/RegrasId"
         android:layout_alignStart="@+id/RegrasId"
-        android:layout_marginTop="35dp" />
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:id="@+id/sobreJogoId"
-        android:background="@drawable/sobre"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/profissoesId"
-        android:layout_alignStart="@+id/profissoesId" />
+        android:layout_marginTop="35dp"
+        android:layout_centerVertical="true" />
 
     <ImageView
         android:layout_width="200dp"
@@ -56,17 +38,5 @@
         android:layout_alignLeft="@+id/RegrasId"
         android:layout_alignStart="@+id/RegrasId"
         android:layout_marginTop="40dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="The Indie Game"
-        android:id="@+id/textView7"
-        android:textColor="#ffffff"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:textStyle="bold" />
 
 </RelativeLayout>
