@@ -26,7 +26,10 @@
         <activity android:name=".RoteiristaActivity" />
         <activity android:name=".ProdutorActivity" />
         <activity android:name=".FreelancerActivity" />
-        <activity android:name=".nosActivity"></activity>
+        <activity android:name=".nosActivity" />
+        <activity android:name=".modosAcitivity" />
+        <activity android:name=".modoNormalActivity" />
+        <activity android:name=".modoDinamicoActivity"></activity>
     </application>
 
 </manifest>

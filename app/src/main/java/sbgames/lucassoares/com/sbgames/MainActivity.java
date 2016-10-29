@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity
     private ImageView botaoRegras;
     private ImageView botaoSobre;
     private ImageView profissoes;
+    private ImageView modos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -19,8 +20,9 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
         botaoRegras = (ImageView) findViewById(R.id.RegrasId);
-        botaoSobre = (ImageView) findViewById(R.id.sobreJogoId);
+        botaoSobre = (ImageView) findViewById(R.id.modoNormalId);
         profissoes = (ImageView) findViewById(R.id.profissoesId);
+        modos = (ImageView)findViewById(R.id.btnModosId);
 
 
 
@@ -49,6 +51,14 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view)
             {
                 Intent intent = new Intent(MainActivity.this,ProfissoesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        modos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent (MainActivity.this,modosAcitivity.class);
                 startActivity(intent);
             }
         });

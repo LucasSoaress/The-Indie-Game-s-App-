@@ -20,16 +20,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/profissoesId"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/teste"
-        android:layout_below="@+id/sobreJogoId"
+        android:layout_below="@+id/modoNormalId"
         android:layout_alignLeft="@+id/RegrasId"
         android:layout_alignStart="@+id/RegrasId" />
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:id="@+id/sobreJogoId"
+        android:id="@+id/modoNormalId"
         android:layout_below="@+id/imageView"
         android:layout_alignLeft="@+id/profissoesId"
         android:layout_alignStart="@+id/profissoesId"
@@ -39,9 +39,19 @@
         android:layout_width="200dp"
         android:layout_height="40dp"
         android:id="@+id/RegrasId"
+        android:src="@drawable/regras"
         android:layout_below="@+id/profissoesId"
+        android:layout_alignLeft="@+id/btnModosId"
+        android:layout_alignStart="@+id/btnModosId"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnModosId"
+        android:src="@drawable/modos"
+        android:layout_below="@+id/RegrasId"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:src="@drawable/regras" />
+        android:layout_marginTop="25dp" />
 
 </RelativeLayout>
