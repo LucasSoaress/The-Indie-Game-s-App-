@@ -13,18 +13,18 @@
         android:focusable="false"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:scaleType="centerCrop"
+        android:scaleType="fitStart"
         android:src="@drawable/logo" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/profissoesId"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/teste"
         android:layout_below="@+id/sobreJogoId"
         android:layout_alignLeft="@+id/RegrasId"
-        android:layout_alignStart="@+id/RegrasId"
-        android:layout_marginTop="56dp"
-        android:src="@drawable/profissoes" />
+        android:layout_alignStart="@+id/RegrasId" />
 
     <ImageView
         android:layout_width="200dp"

@@ -8,13 +8,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="sbgames.lucassoares.com.sbgames.ProfissoesActivity"
-    android:background="#000000">
+    android:background="@drawable/fundoo">
 
     <ImageView
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/programadorId"
-        android:background="@drawable/programador"
         android:layout_marginTop="51dp"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/designId"
@@ -24,7 +23,6 @@
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/artistaId"
-        android:background="@drawable/artista"
         android:layout_below="@+id/designId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
@@ -33,7 +31,6 @@
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/roteiristaId"
-        android:background="@drawable/roteirista"
         android:layout_below="@+id/freelancerId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
@@ -42,7 +39,6 @@
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/designId"
-        android:background="@drawable/design"
         android:layout_below="@+id/programadorId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
@@ -51,7 +47,6 @@
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/produtorId"
-        android:background="@drawable/produtor"
         android:layout_below="@+id/artistaId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
@@ -71,7 +66,6 @@
         android:layout_width="@dimen/botaoProfissoes"
         android:layout_height="@dimen/botaoProfissoesA"
         android:id="@+id/freelancerId"
-        android:background="@drawable/free"
         android:layout_below="@+id/produtorId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp" />
